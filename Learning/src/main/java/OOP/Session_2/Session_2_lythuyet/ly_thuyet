@@ -1,0 +1,10 @@
+Có 4 tính chất:
+ - Kế thừa:có 2 class kế thừa nhau,
+ class ĐƯỢC KẾ THỪA(CLASS CHA) có thuộc tính phương thức nào thì class KẾ THỪA(CLASS CON) sẽ có phương thức thuộc tính đấy
+ nhưng class đc kế thừa sẽ k có phương thức thuộc tính của class kế thừa
+ có 2 loại kế thừa:
+    1. Đơn kế thừa:là class cha có 'n' class con. Class con có 1 class cha
+    2. Đa kế thừa: class cha có 'n' class con. Class con cx có 'n' class cha
+ - Đa hình
+ - Đóng gói
+ - Trừu tượng
