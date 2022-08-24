@@ -1,14 +1,14 @@
-package array;
-//array (mảng)
-//- Mỗi biến trong mảng là 1 phần tử
-//- Cách đặt tên mảng giống cách đặt tên biến, thêm [...]
-//- 3 cách khai báo:
-//    + Khai báo có số phần tử của mảng, có giá trị cho các phần tử
-//       code "Kiểu dữ liệu tên mảng [] = {giá trị};"
-//    + khai báo có số phần tử, k có giá trị
-//       code "kiểu dữ kiệu tên mảng [] = new kiểu dữ kiệu[số phần tử];"
-//- Truy xuất phần tử: tên mảng [index]
-//- Foreach: xử lý mảng (bên PHP có thể truy xuất đối tượng)
-//    for(kiểu dữ liệu biến : mảng){ codeblock }
-//- Truy xuất lần lượt các  phần tử:
-//                    vòng lặp: for
+Array (mảng)
+- Mỗi biến trong mảng là 1 phần tử
+- Cách đặt tên mảng giống cách đặt tên biến, thêm [...]
+- 3 cách khai báo:
+    + Khai báo có số phần tử của mảng, có giá trị cho các phần tử
+       code "Kiểu dữ liệu tên mảng [] = {giá trị};"
+    + khai báo có số phần tử, k có giá trị
+       code "kiểu dữ kiệu tên mảng [] = new kiểu dữ kiệu[số phần tử];"
+- Truy xuất phần tử: tên mảng [index]
+- Foreach: xử lý mảng (bên PHP có thể truy xuất đối tượng)
+    for(kiểu dữ liệu biến : mảng){ codeblock }
+- Truy xuất lần lượt các  phần tử:
+                    vòng lặp: for
+

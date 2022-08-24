@@ -1,0 +1,23 @@
+OOP [- Object oriented programming  : là phương pháp lập trình đưa các đối tượng có thực vào trong lập trình
+     - Object orientated programming]   |_> [Lập trình tạo ra các class, object]
+- Class: lớp -> có thể hiểu nó là 1 kiểu dữ liệu do user định nghĩa
+    + Chứa những thông tin  và hành động của 1 đối tượng
+                [Thuộc tính]  [Phương thức]
+    + Tạo 1 class: 'Access Modifier' 'class' 'tên class'{
+        thuộc tính |'public' int 'tên thuộc tính'|;
+        Phương thức|'public' void 'tên phương thức'{block code}|;
+    }
+        + Tạo 1 object cho 1 class: 'tên class' 'tên object' = new 'tên class'()
+- Object: Là những thứ xuất hiện trong đời thực
+* Mối QH: Class đc thể hiện là 1 tập hợp các object có những thuộc tính, phương thức giống nhau
+Truy xuất các thuộc tính, phương thức của object:
+    'tên object'.'thuộc tính'
+    'tên object'.'phương thức'
+Constructor: là 1 phương thức đặc biệt dùng để tạo đối tượng
+- Chia làm 2 loại:
+    + Constructor có tham số  ]
+                              ] --> có n[tiến đến vô cực] constructor
+    + Constructor k có tham số]
+*Đặc điểm:
+   - Luôn tồn tại 1 constructor trong class
+   - Có tên trùng với class

@@ -1,3 +1,5 @@
+package Learning.src.main.java.condition;
+
 import java.util.Scanner;
 
 public class Condition {
