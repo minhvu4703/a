@@ -21,3 +21,38 @@ Constructor: là 1 phương thức đặc biệt dùng để tạo đối tượ
 *Đặc điểm:
    - Luôn tồn tại 1 constructor trong class
    - Có tên trùng với class
+* Có 4 tính chất:
+     1. Kế thừa:có 2 class kế thừa nhau,
+     class ĐƯỢC KẾ THỪA(CLASS CHA) có thuộc tính phương thức nào thì class KẾ THỪA(CLASS CON) sẽ có phương thức thuộc tính đấy
+     nhưng class đc kế thừa sẽ k có phương thức thuộc tính của class kế thừa
+     có 2 loại kế thừa:
+        1. Đơn kế thừa:là class cha có 'n' class con. Class con có 1 class cha
+        2. Đa kế thừa: class cha có 'n' class con. Class con cx có 'n' class cha
+     2. Đa hình:
+        + Overloading : nạp chồng [trong 1 class tồn tại những method có tên == nhau nhưng tham số != nhau]
+        VD: public void input_person(){
+                    System.out.println(input);
+                }
+                public void input_person(String ten, String gioiTinh, String ngaySinh){
+                    System.out.println(input);
+                }
+        + Overriding : Ghi đè [trong 2 class cha con tồn tại 1 phương thức giống nhau về kiểu dữ liệu tên phương thức và tham số]
+        VD:  @Override
+                public String toString() {
+                    return "Thong tin sinh vien: " +
+                            "Tên: " + ten + '\n' +
+                            "Giới tính: " + gioiTinh + '\n' +
+                            "Địa chỉ: " + diaChi + '\n' +
+                            "Ngày sinh: " + ngaySinh + '\n' +
+                            "Mã sinh viên: " + maSV + '\n' +
+                            "Email: " + email + '\n' +
+                            "Điêm trung bình" + TB + '\n' +"";
+                }
+     3. Đóng gói: phạm vi có thể dử dụng của class. method. atribute
+        - Access modifier: + Public: Everywhere
+                           + default: Just in Package
+                           + Protected: In class, package, out package but in subclass(class con)
+                           + Private: Just in same class
+                             * Thuộc tính có private thì có thể dùng getter, setter để use
+                             * Phương thức mà có private ==> use tring class
+     4. Trừu tượng

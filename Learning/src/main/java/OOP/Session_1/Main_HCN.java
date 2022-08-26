@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP;
+package Learning.src.main.java.OOP.Session_1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_2;
+package Learning.src.main.java.OOP.Session_2.VD_ss2;
 /*
 Cty a có 4 phòng ban, mỗi phòng ban có n nhân viên
 viết phương trình:
@@ -10,7 +10,7 @@ public class Example_1 {
         baoVe bv1 = new baoVe();
         System.out.println(bv1.diachi);
         System.out.println(bv1.congViec);
-        System.out.println(bv1.congViec);
+        System.out.println(   bv1.congViec);
         bv1.timelamaviec();
         congTy ct1 = new congTy();
 

@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP;
+package Learning.src.main.java.OOP.Session_1;
 /*
 Tao class HCn - gom 2 thuoc tinh: chieuDai, chieuRong
               - gom 2 constructor: + co tham so
