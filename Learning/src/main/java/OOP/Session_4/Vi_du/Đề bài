@@ -1,0 +1,7 @@
+Tạo 1 interface hình học, có 3 abstract method: nhap, tinhChuVi, tinhDienTich
+tạo class HCN, HV, Htron. Thuộc tính CV, DT của HCN, HV, HT
+=> tạo 1 interface, 3 abstract method
+=> tọa class HCN, tạo thuộc tính CD, CR, implement, interface
+    => override các absstract method
+=> HV, HT tương tự
+=> tạo maun => tạo obj => tính CV, DT
