@@ -55,4 +55,30 @@ Constructor: là 1 phương thức đặc biệt dùng để tạo đối tượ
                            + Private: Just in same class
                              * Thuộc tính có private thì có thể dùng getter, setter để use
                              * Phương thức mà có private ==> use tring class
-     4. Trừu tượng
+     4. Trừu tượng: để xây dụng lên những thứ chung nhất của chương trình (khung)
+                   => tùy theo từng class sẽ triển khai những thứ chung đó
+        - Abstract: có 2 loại
+          Bán trừu tượng:
+                    * Abstract class:
+            + chứa những thuộc tính + những phương thức bình thường + những phương thức trừu tượng (abstract method)
+            + Không thể tạo đối dtượng cho abstract class
+            + Abstract class có thể kế thừa
+            + Khai báo:
+                'Access modifier' abstract class 'tên class'{
+                        'thuộc tính';
+                        'method thông thường';
+                        abstract method;
+                }
+                    * Abstract method:
+            + bắt buộc phải override
+            + khai báo:
+                'Access modifier' abstract 'kiểu dữ liệu' 'tên method' '(tham số)'
+          Trừu tượng toàn phần (Interface): chỉ chứa abstract class
+            + tạo interface:
+                'Access modifier' interface 'tên interface'{
+                        phương thức trừu tượng;
+                }
+        Class => chỉ extends 1 class
+        Interface => implements
+            Interface có thể implements 1 hoặc nhiều interface
+            class có thể implements 1 hoặc nhiều interface
