@@ -10,15 +10,15 @@ public class HVuong implements hinhHoc {
 
     @Override
     public void tinhChuVi() {
-        double chuvi;
-        chuvi = canh * 4;
-        System.out.println("Chu vi = " + chuvi);
+        double P;
+        P = canh * 4;
+        System.out.println("Chu vi = " + P);
     }
 
     @Override
     public void tinhDienTich() {
-        double dientich;
-        dientich = canh * canh;
-        System.out.println("Dien tich = " + dientich);
+        double S;
+        S = canh * canh;
+        System.out.println("Dien tich = " + S);
     }
 }

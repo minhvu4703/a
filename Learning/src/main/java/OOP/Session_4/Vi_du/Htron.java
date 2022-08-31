@@ -10,15 +10,15 @@ public class Htron implements hinhHoc {
 
     @Override
     public void tinhChuVi() {
-        double chuvi;
-        chuvi = r * 2 * 3.14;
-        System.out.println("Chu vi = " + chuvi);
+        double P;
+        P = r * 2 * Math.PI;
+        System.out.println("Chu vi = " + P);
     }
 
     @Override
     public void tinhDienTich() {
-        double dientich;
-        dientich = r * r * 3.14;
-        System.out.println("Dien tich = " + dientich);
+        double S;
+        S = Math.pow(r, 2) * Math.PI;
+        System.out.println("Dien tich = " + S);
     }
 }

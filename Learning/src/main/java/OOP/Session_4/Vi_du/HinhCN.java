@@ -13,15 +13,15 @@ public class HinhCN implements hinhHoc {
     }
     @Override
     public void tinhChuVi() {
-        double chuvi;
-        chuvi = (CD + CR) * 2;
-        System.out.println("Chu vi = " + chuvi);
+        double P;
+        P = (CD + CR) * 2;
+        System.out.println("Chu vi = " + P);
     }
 
     @Override
     public void tinhDienTich() {
-        double dientich;
-        dientich = CD * CR;
-        System.out.println("Dien tich = " + dientich);
+        double S;
+        S = CD * CR;
+        System.out.println("Dien tich = " + S);
     }
 }
