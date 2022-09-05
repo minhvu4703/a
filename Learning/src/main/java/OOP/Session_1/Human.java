@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_1;
+package OOP.Session_1;
 
 public class Human {
     public String ten;
