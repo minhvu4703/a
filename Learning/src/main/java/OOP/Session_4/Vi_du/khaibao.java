@@ -1,6 +1,9 @@
 package Learning.src.main.java.OOP.Session_4.Vi_du;
 
+import java.util.Scanner;
+
 public class khaibao {
+    static Scanner input = new Scanner(System.in);
     public static void hinhcn(){
         System.out.println("Hinh chu nhat ne");
         HinhCN hcn = new HinhCN();
@@ -21,5 +24,12 @@ public class khaibao {
         ht.nhap();
         ht.tinhChuVi();
         ht.tinhDienTich();
+    }
+    public static void hinhTru(){
+        System.out.println("Hinh tru ne");
+        Htron day = new Htron();
+        day.nhap();
+        hinhTru htr = new hinhTru(10, day);
+        System.out.println("Dien tich xung quanh = " + htr.dienTichXQ(htr.chieuCao, htr.day));
     }
 }

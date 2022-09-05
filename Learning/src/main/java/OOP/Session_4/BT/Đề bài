@@ -1,0 +1,6 @@
+Tạo 1 lớp Person lưu trữ các thông tin sau đây (Tên, giới tính, địa chỉ, ngày sinh)
+    b, Tạo lớp teacher kế thừa từ lớp person lưu trữ các thông tin:
+        số căn cước, email, chuyên ngành, lương cơ bản, lương theo giờ, số giờ làm, tháng, năm
+        Viết phương thức nhập thông tin của teacher
+        Viết phương thức hiển thị thông tin của teacher
+        Viết phương thức tính lương của giáo viên

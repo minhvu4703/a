@@ -1,0 +1,24 @@
+Exception
+- Ngoại lệ : là những trường hợp có thể xảy ra trong code khi code vẫn đàn run bình thường thì gặp 1 lỗi tại 1 Th đặc
+             biệt nào đó
+  VD: 2 số nguyên a, b.
+        tính a / b => nhập a, b => thương a / b => b = 0 (k chia đc) => exception
+- Code:
+try{
+    khối lệnh try;
+}
+catch 'exception-class name ex' {
+    khối lệnh catch;
+}
+finally{
+    khối lệnh finally;
+}
+- có 2 kiểu exception:
+    + Checked exception: là Exception thường xuyên xảy ra, bắt buộc phải có try-catch để chạy code
+    + unchecked exception: thường xảy ra khi viết code sai
+- Throw: ném ra 1 unchecked exception
+    throw new Exception-class name
+- Throws: định nghĩa 1 exception (cả unchecked và checked)
+    return_type method_name() throws exception_class-name{
+        method code
+    }

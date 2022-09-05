@@ -5,5 +5,6 @@ public class Main extends khaibao {
         hinhcn();
         hinhtron();
         hinhvuon();
+        hinhTru();
     }
 }
