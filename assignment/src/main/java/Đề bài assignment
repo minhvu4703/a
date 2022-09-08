@@ -1,0 +1,24 @@
+TIÊU CHÍ
+Mỗi học sinh phải nộp bài tập của mình theo hướng dẫn trong phần tóm tắt bài tập.
+Các sinh viên được hướng dẫn về loại thông tin cần tạo ra để đáp ứng các tiêu chí được nhắm mục tiêu.
+Một số nhiệm vụ có thể yêu cầu làm việc nhóm, nhưng học sinh phải hoàn thành bài tập cá nhân..
+ĐỀ BÀI:
+Công ty BKC -một trong những công ty CNTT tại Việt Nam được HirePhone thuê
+làm phần mềm quản lý điện thoại.
+Bạn là một nhân viên mới được tuyển dụng
+và bạn được yêu cầu tìm hiểu về các thuật toán, mô hình lập trình.
+Tiếp theo, bạn được người quản lý yêu cầu phát triển
+một phần mềm quản lý điện thoại
+hoạt động theo đặc điểm kỹ thuật và thiết kế của hệ thống quản lý.
+Phần mềm yêu cầu bạn quản lý các điện thoại,
+    mỗi điện thoại sẽ cần:
+       - IMEI,
+       - tên,
+       - nhà sản xuất,
+       - giá cả,
+       - ngày phát hành,
+       - dung lượng RAM,
+       - dung lượng ROM,
+       - chip,
+       - kích thước màn hình,
+       - kích thước điện thoại (dài x rộng x dày).

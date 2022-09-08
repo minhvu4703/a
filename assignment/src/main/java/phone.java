@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class phone {
-    // Khai bao bien
+// Khai bao bien
     public static Scanner input = new Scanner(System.in);
     public String phoneName;
     public String IMEI;
@@ -15,7 +15,7 @@ public class phone {
     public String size;
 
     // Nhap
-    public void insert(){
+    public void phoneInsert(){
         System.out.print("Nhap ten dien thoai: ");
         phoneName = input.nextLine();
         System.out.print("Nhap IMEI: ");
@@ -40,18 +40,18 @@ public class phone {
         size = input.nextLine();
     }
 
-    // Hien thi
+// Hien thi
     public String toString() {
-        return "Thong tin dien thoai: "
-                + '\n' + "Ten dien thoai: " + phoneName + '\n' +
-                '\n' +  "So IMEI: '" + IMEI + '\n' +
-                '\n' + "Gia thi truong: " + price + '\n' +
-                '\n' + "Nhap phat hanh: " + manufacturer + '\n' +
-                '\n' +  "Ngay ra mat: " + releasedate + '\n' +
-                '\n' +  "Dung luong RAM: " + RAM + '\n' +
-                '\n' +   "Dung luong ROM: " + ROM + '\n' +
-                '\n' +  "Loai chip: " + chip + '\n' +
-                '\n' +   "Kich thuoc man hinh: " + screensize + '\n' +
-                '\n' + "Kich thuoc cua dien thoai" + size + '\n' ;
+        return "Thông tin điện thoại: " +
+                '\n' + "Tên điện thoại: " + phoneName + '\n' +
+                '\n' + "Số IMEI: '" + IMEI + '\n' +
+                '\n' + "Giá thị trường: " + price + " đ" + '\n' +
+                '\n' + "Nhà phát hành: " + manufacturer + '\n' +
+                '\n' + "Ngày ra mắt: " + releasedate + '\n' +
+                '\n' + "Dung lượng RAM: " + RAM + " GB" + '\n' +
+                '\n' + "Dung lượng ROM: " + ROM + " GB" + '\n' +
+                '\n' + "Loại chip: " + chip + '\n' +
+                '\n' + "Kích thước màn hình: " + screensize + " Hz" + '\n' +
+                '\n' + "Kích thước của điện thoại" + size + " Hz" + '\n' ;
     }
 }
