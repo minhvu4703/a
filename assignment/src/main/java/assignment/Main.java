@@ -1,3 +1,5 @@
+package assignment;
+
 public class Main extends phone {
     public static void main(String[] args) {
         phone p1 = new phone();

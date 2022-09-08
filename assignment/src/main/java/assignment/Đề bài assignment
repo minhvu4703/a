@@ -1,15 +1,18 @@
-TIÊU CHÍ
+TIÊU CHÍ:
 Mỗi học sinh phải nộp bài tập của mình theo hướng dẫn trong phần tóm tắt bài tập.
 Các sinh viên được hướng dẫn về loại thông tin cần tạo ra để đáp ứng các tiêu chí được nhắm mục tiêu.
 Một số nhiệm vụ có thể yêu cầu làm việc nhóm, nhưng học sinh phải hoàn thành bài tập cá nhân..
+
 ĐỀ BÀI:
 Công ty BKC -một trong những công ty CNTT tại Việt Nam được HirePhone thuê
-làm phần mềm quản lý điện thoại.
+    làm phần mềm quản lý điện thoại.
 Bạn là một nhân viên mới được tuyển dụng
-và bạn được yêu cầu tìm hiểu về các thuật toán, mô hình lập trình.
+    và bạn được yêu cầu tìm hiểu về các thuật toán, mô hình lập trình.
 Tiếp theo, bạn được người quản lý yêu cầu phát triển
-một phần mềm quản lý điện thoại
-hoạt động theo đặc điểm kỹ thuật và thiết kế của hệ thống quản lý.
+    một phần mềm quản lý điện thoại
+    hoạt động theo đặc điểm kỹ thuật và thiết kế của hệ thống quản lý.
+
+YÊU CẦU:
 Phần mềm yêu cầu bạn quản lý các điện thoại,
     mỗi điện thoại sẽ cần:
        - IMEI,
@@ -22,3 +25,19 @@ Phần mềm yêu cầu bạn quản lý các điện thoại,
        - chip,
        - kích thước màn hình,
        - kích thước điện thoại (dài x rộng x dày).
+The system must have at least two main menus:
+I.	Phones
+        a.	insert a new phone
+        b.	update a phone
+        c.	delete a phone
+        d.	display all
+II.	Tools
+        a.	filter by manufacturer
+        b.	order by release date desc
+        c.	filter by price
+        d.	order by price desc
+After you develop the software, you should explain both the debugging process and the debugging facilities
+    available in the IDE you have chosen to develop the software.
+The submission is in the form of a documents/files:
+1.	A report document
+2.	An installable and executable version of your application

@@ -1,3 +1,5 @@
+package assignment;
+
 import java.util.Scanner;
 
 public class phone {
@@ -41,7 +43,7 @@ public class phone {
     }
 
 // Hien thi
-    public String toString() {
+    public String phoneDisplay() {
         return "Thông tin điện thoại: " +
                 '\n' + "Tên điện thoại: " + phoneName + '\n' +
                 '\n' + "Số IMEI: '" + IMEI + '\n' +
