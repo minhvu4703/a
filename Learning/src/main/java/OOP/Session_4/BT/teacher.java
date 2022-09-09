@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_4.BT;
+package OOP.Session_4.BT;
 
 import java.util.Scanner;
 

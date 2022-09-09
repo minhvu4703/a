@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_4.BT;
+package OOP.Session_4.BT;
 
 public class Mên {
     public static void main(String[] args) {

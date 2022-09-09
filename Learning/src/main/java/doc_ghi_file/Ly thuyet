@@ -1,0 +1,6 @@
+Đọc, ghi files: txt
+- Đọc file: file reader (learn to use) | file InputStream (k learn to use)
+    + File reader 'tên obl' = new FileReader ('path file | name file)
+    + File file = new file('path file | name file')
+      File reader 'tên obj' = new FileReader (file)
+- Ghi file: FileWriter | FileOutputStream
