@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class base {
     public static Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) {
+    public static void goi (){
         int case1;
         int case2;
         int case3;
@@ -37,9 +37,9 @@ public class base {
                         break;
                     case 4:
                         System.out.println("4. Show all devices");
-                        p1.phoneDisplay();
+                        System.out.println(p1.phoneDisplay());
                         break;
-                }
+                }break;
             case 2:
                 System.out.println("=============== Editing Tools ===============");
                 System.out.println("1. Filter by manufacturer");
@@ -61,7 +61,7 @@ public class base {
                     case 4:
                         System.out.println("4. Order by price desc");
                         break;
-                }
+                }break;
         }
     }
 }

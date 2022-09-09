@@ -1,9 +1,7 @@
 package assignment;
 
-public class Main extends phone {
+public class Main extends base {
     public static void main(String[] args) {
-        phone p1 = new phone();
-        p1.phoneInsert();
-        System.out.print(p1.toString());
+        goi();
     }
 }
