@@ -4,6 +4,14 @@ import java.util.Scanner;
 public class HinhCN implements hinhHoc {
     public double CD;
     public double CR;
+
+    public HinhCN(int i, int i1) {
+    }
+
+    public HinhCN() {
+
+    }
+
     @Override
     public void nhap() {
         System.out.print("CD = ");

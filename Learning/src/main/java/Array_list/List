@@ -1,0 +1,14 @@
+Arraylist: k nhất thiết cùng kiểu dữ liệu
+    - Cùng kiểu dữ liệu
+    - Không cùng kiểu dữ liệu
+    - Đánh các ptu index giống array
+    - khởi tạo ArryList
+        + k có số ptu:
+            k cùng kiểu dữ liệu: ArryList tên ArrayList = new Arrylist();
+            cùng kiểu dữ liệu: ArrayList<kiểu dữ liệu> tên ArrayList = new ArrayList<kiểu dữ liệu>();
+
+        + có số ptu:
+            k cùng kiểu dữ liệu: ArryList tên ArrayList = new Arrylist(số ptu);
+            cùng kiểu dữ liệu: ArrayList<kiểu dữ liệu> tên ArrayList = new ArrayList<kiểu dữ liệu>(số ptu);
+
+linkedList

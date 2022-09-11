@@ -1,0 +1,17 @@
+ArrayList:
+    - chạy theo chỉ số index
+    - Index là duy nhất
+    - có thể làm việc với index
+    - các giá trị của các ptu có thể bằng nhau
+    - lưu các ptu theo thứ tự
+HashSet
+    - k dùng index => k thể làm việc với index
+    - giá trị của các ptu là duy nhất
+    - Lưu các ptu k theo thứ tự
+HashMap:
+    - lưu dữ liệu theo dạng key
+    - key là duy nhất
+    - Value của các ptu có thể == nhau
+    - key: String, int
+    - value: String, int
+    - lưu các ptu k theo thứ tự
