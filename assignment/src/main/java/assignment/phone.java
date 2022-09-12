@@ -1,6 +1,5 @@
 package assignment;
 
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -24,6 +23,7 @@ public class phone {
 
     // something
     public phone(String phoneName, String IMEI, double price, String manufacturer, String releaseDate, double RAM, double ROM, String chip, String screensize, String phoneSize) throws IOException {
+        super();
         this.phoneName = phoneName;
         this.IMEI = IMEI;
         this.price = price;
@@ -116,34 +116,4 @@ public class phone {
         this.phoneSize = phoneSize;
     }
 
-    // Nhap
-    public void phoneInsert() {
-        System.out.print("Nhap ten dien thoai: ");
-        phoneName = input.nextLine();
-        System.out.print("Nhap IMEI: ");
-        IMEI = input.nextLine();
-        System.out.print("Nhap gia: ");
-        price = input.nextInt();
-        input.nextLine();
-        System.out.print("Nhap nha phat hanh: ");
-        manufacturer = input.nextLine();
-        System.out.print("Nhap ngay ra mat: ");
-        releaseDate = input.nextLine();
-        System.out.print("Nhap RAM: ");
-        RAM = input.nextInt();
-        System.out.print("Nhap ROM: ");
-        ROM = input.nextInt();
-        input.nextLine();
-        System.out.print("Nhap chip: ");
-        chip = input.nextLine();
-        System.out.print("Nhap size man hinh: ");
-        screensize = input.nextLine();
-        System.out.print("Nhap size dien thoai: ");
-        phoneSize = input.nextLine();
-    }
-
-    //    hien thi
-    public String phoneDisplay() {
-        return "Phone" + "phoneName='" + phoneName + '\'' + ", IMEI='" + IMEI + '\'' + ", price=" + price + ", manufacturer='" + manufacturer + '\'' + ", releaseDate='" + releaseDate + '\'' + ", RAM=" + RAM + ", ROM=" + ROM + ", chip='" + chip + '\'' + ", screensize='" + screensize + '\'' + ", phoneSize='" + phoneSize + '\'' + '}';
-    }
 }

@@ -1,18 +1,21 @@
 package assignment;
-
-import java.io.FileWriter;
+import java.io.EOFException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-public class base {
+
+public class Menu extends phoneManager{
     public static String file;
     public static Scanner input = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
+    public Menu() throws EOFException {
+    }
+
+    public static void showMenu() throws FileNotFoundException, EOFException {
         int caseMain;
         int casePhone;
         int caseTool;
+        phoneManager p1 = new phoneManager();
         System.out.println("=============== Phone manager program ===============");
         System.out.println("|               1. Phones manager                   |");
         System.out.println("|               2. Editing Tools                    |");
@@ -33,15 +36,7 @@ public class base {
                 switch (casePhone) {
                     case 1:
                         System.out.println("1. Them thiet bi moi");
-                        System.out.println("Nhap so thiet bi can them: ");
-                        int phoneCount = input.nextInt();
-                        phone[] phones = new phone[phoneCount];
-                        System.out.println("Nhap cac thong so cho thiet bi: ");
-                        for (int i = 0; i < phoneCount; i++) {
-                            System.out.println("Thong so thiet bi thu " + (i + 1) + ":");
-                            phone p1 = new phone();
-                            p1.phoneInsert();
-                        }
+//                        p1.add();
                         break;
                     case 2:
                         System.out.println("2. Update device information");
@@ -51,7 +46,7 @@ public class base {
                         break;
                     case 4:
                         System.out.println("4. Show all devices");
-//                        System.out.println(p1.phoneDisplay());
+                        p1.show();
                         break;
                 }
                 break;
@@ -82,12 +77,7 @@ public class base {
             case 3:
                 System.out.println("Exited");
                 break;
-        }
-        try {
-            FileWriter fileWriter = new FileWriter(file,true);
-            fileWriter.write("\nXin chao");
-        }catch (FileNotFoundException fileNotFoundException){
-            System.out.println("k thay");
+
         }
     }
 }

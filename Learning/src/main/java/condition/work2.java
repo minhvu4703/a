@@ -1,4 +1,4 @@
-package Learning.src.main.java.condition;
+package condition;
 
 import java.util.Scanner;
 // Giai phuong trinh bac 2 voi a, b, c nhap tu ban phim

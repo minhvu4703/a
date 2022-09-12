@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_2.VD_ss2;
+package OOP.Session_2.VD_ss2;
 
 public class nhanSu extends congTy {
     public String congViec = "Tuyen nguoi";

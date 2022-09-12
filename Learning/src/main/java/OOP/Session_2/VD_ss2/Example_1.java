@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_2.VD_ss2;
+package OOP.Session_2.VD_ss2;
 /*
 Cty a có 4 phòng ban, mỗi phòng ban có n nhân viên
 viết phương trình:

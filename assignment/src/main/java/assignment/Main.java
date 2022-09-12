@@ -1,7 +1,13 @@
 package assignment;
 
-public class Main extends base {
-    public static void main(String[] args) {
-//        goi();
+import java.io.EOFException;
+import java.io.FileNotFoundException;
+
+public class Main extends Menu {
+    public Main() throws EOFException {
+    }
+
+    public static void main(String[] args) throws FileNotFoundException, EOFException {
+        showMenu();
     }
 }

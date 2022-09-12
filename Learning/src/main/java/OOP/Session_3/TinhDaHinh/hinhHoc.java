@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_3.TinhDaHinh;
+package OOP.Session_3.TinhDaHinh;
 
 import java.util.Scanner;
 

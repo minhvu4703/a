@@ -1,4 +1,4 @@
-package Learning.src.main.java.OOP.Session_3.TinhDaHinh;
+package OOP.Session_3.TinhDaHinh;
 
 public class HCN extends hinhHoc {
     public int CD;

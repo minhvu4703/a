@@ -1,4 +1,4 @@
-package Learning.src.main.java.Method;
+package Method;
 
 import java.util.Scanner;
 
